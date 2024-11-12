@@ -1,0 +1,104 @@
+.modal-head{
+    color: #614efa !important;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: center;
+}
+.demo-btn{
+    border: 1px solid #fc6853 !important;
+    font-size: 19px;
+    padding: 5px 12px;
+    width: 250px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 40px;
+    background-color: #fc6853 !important;
+    color: #fff !important;
+}
+.modal-footer{
+    justify-content: center;
+}
+.demoform-body label{
+    font-family: system-ui;
+    font-size: 17px;
+    font-weight: 500;
+    color: #b7b6b6;
+}
+.modal-header{
+    padding: 35px;
+}
+.modal-body{
+    padding: 35px 35px 80px 35px;
+}
+.getotp-btn, .verifyotp-btn{
+    border-radius: 4px 4px !important;
+    color: #fff !important;
+    cursor: pointer;
+    font-size: .75em !important;
+    padding: .3em .65em !important;
+    position: absolute;
+    right: 8px;
+    top: 17px;
+    background: linear-gradient(117deg, #0d37b4, #763cd1 59%) !important;
+}
+.getotp-btn:hover, .verifyotp-btn:hover {
+    background-color: #cccfce;
+}
+.success-message{
+    color: #067803 !important;
+    font-size: 15px;
+    position: relative;
+    top: -15px;
+}
+.thank-you-message{
+    color: #066e02 !important;
+    font-size: 18px;
+}
+.MuiFormHelperText-root{
+    position: absolute;
+    top: auto;
+    width: auto;
+    bottom: -9px;
+    background: #f16565;
+    border-radius: 4px;
+    color: #fff !important;
+    padding: 1px 5px;
+}
+.otp-error{
+    background: #f16565;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    margin-top: 18px !important;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+}
+.otp-required-message{
+    background: #f16565;
+    border-radius: 4px;
+    color: #fff !important;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+.verify-otp, .otp-warning{
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    margin-top: 18px !important;
+    padding: 5px;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    background: #d33b23;
+    padding: 10px;
+}
